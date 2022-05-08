@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Video Background - IMTHI</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav" style="font-family:virtualia;">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >IMTHI 15</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+            </li>
+            <li>
+                <a href="#more_info" onclick = $("#menu-close").click(); >Info</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >www.imthi15.com</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div>
+            <div style="position: absolute; z-index: -1; width: 100%;"> 
+                <video autoplay loop muted id="vid" height= "30%" width="100%">
+                    <source src="img/imthi15.mp4" type="video/mp4">
+                </video>
+            </div >
+        </div>
+        <div class="text-vertical-center">
+            <h1 style="font-family:virtualia; font-size:200px; text-shadow:8px 8px gray; color:#eee;">Imthi 15</h1>
+            <h2>Video Background example with Bootstrap.</h2>
+            <br>
+            <a href="#about" class="content__cta">Get Lucky!</a>
+        </div>        
+    </header>
+   
+
+    <!-- About -->
+    <section id="about" class="about" style="background-color:#FFF;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eleifend, mi quis molestie suscipit, felis purus laoreet ligula, ac molestie nibh sapien quis justo. Donec commodo dolor enim, ac gravida ex scelerisque eu.
+                    .</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+   <section class="services bg-primary" style="background-color:#000000;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Icons</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item" >
+                                <span class="fa-stack fa-5x" >                                    
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                </span>
+                                <h3>
+                                    <strong>Service Name</strong>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-5x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-book fa-stack-1x text-primary"></i>
+                                </span>
+                                <h3>
+                                    <strong>Service Name</strong>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-5x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-graduation-cap fa-stack-1x text-primary"></i>           
+                                </span>
+                                <h3>
+                                    <strong>Service Name</strong>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-5x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <a href="#" data-toggle="modal" data-target="#ventaja4">
+                                        <i class="fa fa-home fa-stack-1x text-primary"></i>
+                                    </a>
+                                </span>
+                                <h3>
+                                    <strong>Service Name</strong>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callin" id="more_info" style="text-align:left;">
+        <div style="margin-left:30px; margin-top:50px; margin-bottom:50px;">
+
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center" >
+                    <h2  style="font-size:55px;">Info</h2>
+                    <br><br>
+
+                    <div class="container" style="font-size:26px; margin-left:-100px;">
+                        <div class="row text-center">
+
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-eye fa-stack-1x" style="color:#000000;"></i>
+                                </span>
+                                <h4 class="service-heading"><strong>Lorem I</strong></h4>
+                                <p class="text-muted" style="color:#C0C0C0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non dui placerat, elementum ipsum at, malesuada leo. Integer efficitur, ante eget gravida fringilla, dui purus volutpat neque, et placerat arcu magna id metus.</p>
+                            </div>
+
+                            <div class="col-md-4"  style="border-right:2px solid; border-left:2px solid;">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-hand-o-up fa-stack-1x" style="color:#000000;"></i>
+                                </span>
+                                <h4 class="service-heading"><strong>Lorem II</strong></h4>
+                                <p class="text-muted" style="color:#C0C0C0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non dui placerat, elementum ipsum at, malesuada leo. Integer efficitur, ante eget gravida fringilla, dui purus volutpat neque, et placerat arcu magna id metus.</p>
+                            </div>
+
+                            <div class="col-md-4">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-code fa-stack-1x" style="color:#000000; "></i>
+                                </span>
+                                <h4 class="service-heading"><strong>Lorem III</strong></h4>
+                                <p class="text-muted" style="color:#C0C0C0; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non dui placerat, elementum ipsum at, malesuada leo. Integer efficitur, ante eget gravida fringilla, dui purus volutpat neque, et placerat arcu magna id metus.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <a href="https://www.linkedin.com/in/shamim-imtiyaz-11a3406b/" target="_blank"><img src="img/zz.jpeg"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
